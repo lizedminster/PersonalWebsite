@@ -26,7 +26,6 @@ export function sortList(type) {
     items.forEach(item => ul.appendChild(item));
 }
 
-// Initialize event listeners
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('sortByTime').addEventListener('click', () => sortList('time'));
     document.getElementById('sortByRelevance').addEventListener('click', () => sortList('relevance'));
